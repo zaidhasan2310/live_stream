@@ -1,7 +1,7 @@
 import React from "react";
 
-const StreamEdit = () => {
-  return <div>StreamEdit</div>;
+const StreamEdit = (props) => {
+  return <div>{props.match.params.id}</div>;
 };
 
 export default StreamEdit;
